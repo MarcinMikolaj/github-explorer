@@ -18,9 +18,10 @@ import org.springframework.web.reactive.function.client.WebClient;
 import org.springframework.web.util.UriComponentsBuilder;
 import reactor.core.publisher.Mono;
 
-import java.lang.reflect.Type;
+import java.text.MessageFormat;
 import java.time.Duration;
 import java.util.List;
+import java.util.Objects;
 import java.util.stream.Collectors;
 
 @Slf4j
@@ -31,16 +32,13 @@ public class GithubExplorerServiceImpl implements GithubExplorerService {
     String gitHubApiAddress;
     private final Gson gson;
 
-    // TODO: replace method for processBranches
-    // TODO: build url in correct way
     @Override
     public List<GitHubRepository> receiveGithubRepositories(String username) {
-        String url = gitHubApiAddress + "/users/" + username + "/repos";
-        url = buildUri(url, RepositoryType.OWNER, SortType.CREATED, SortDirectionType.ASC, 1, 30);
-        String result = invokeWebClient(HttpMethod.GET, url);
-        Type repositoryListType = new TypeToken<List<Repository>>(){}.getType();
-        List<Repository> repositories = gson.fromJson(result, repositoryListType);
+        String preparedUri = buildUri(MessageFormat.format("{0}/users/{1}/repos",
+                gitHubApiAddress, username), RepositoryType.OWNER, SortType.CREATED, SortDirectionType.ASC, 1, 30);
+        List<Repository> repositories = gson.fromJson(invokeWebClient(HttpMethod.GET, preparedUri), new TypeToken<List<Repository>>(){}.getType());
         return repositories.stream()
+                .filter(Objects::nonNull)
                 .filter(repo -> !repo.fork())
                 .map(repo -> prepareGitHubRepository(repo.name(), repo.owner().login(),
                         processBranches(repo.branchesUrl())))
@@ -51,6 +49,7 @@ public class GithubExplorerServiceImpl implements GithubExplorerService {
         String result = invokeWebClient(HttpMethod.GET, branchUrl.replaceAll("\\{\\/branch\\}", ""));
         List<Branch> branches = gson.fromJson(result, new TypeToken<List<Branch>>(){}.getType());
         return branches.stream()
+                .filter(Objects::nonNull)
                 .map(branch -> new GithubBranch(branch.name(), branch.commit().sha()))
                 .collect(Collectors.toList());
     }
@@ -63,7 +62,8 @@ public class GithubExplorerServiceImpl implements GithubExplorerService {
                 .accept(MediaType.APPLICATION_JSON)
                 .exchangeToMono(clientResponse -> onExchangeMono(clientResponse))
                 .timeout(Duration.ofSeconds(20))
-                .retry(5)
+                .doOnError(ex -> log.error(ex.getMessage()))
+                .retry(3)
                 .block();
     }
 
