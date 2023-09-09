@@ -1,5 +1,5 @@
 server:
-  port: 6000
+  port: 7000
 
 spring:
   application:
@@ -8,3 +8,7 @@ spring:
 github:
   api:
     address: https://api.github.com
+
+springdoc:
+  swagger-ui:
+    enabled: true

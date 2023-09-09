@@ -15,6 +15,8 @@
 	<description>github-explorer-service</description>
 	<properties>
 		<java.version>17</java.version>
+		<swagger.version>2.1.0</swagger.version>
+		<gson.version>2.10.1</gson.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -26,11 +28,15 @@
 			<artifactId>spring-boot-starter-webflux</artifactId>
 		</dependency>
 		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+			<version>${swagger.version}</version>
+		</dependency>
+		<dependency>
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
-			<version>2.10.1</version>
+			<version>${gson.version}</version>
 		</dependency>
-
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
