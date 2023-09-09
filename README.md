@@ -1,5 +1,4 @@
 # github-explorer
-github-explorer
 
 ## Table of contents
 - [General info](#general-info)
@@ -13,6 +12,7 @@ github-explorer
 
 ## General info
 
+This project provide api to list repositories from github for specific user by his login. It also provide data transfer object for exceptions like 'not found repository by username' or 'incorrect accept header' in correct format defined in functional requirements.
 
 ## Technologies
 * Java 17
@@ -94,8 +94,8 @@ The project has been completed, all functional and non-functional requirements h
 
 ## Resources
 
-📦 Postamn Collection to test API V1: [github-explorer.postman_collection.zip](https://github.com/MarcinMikolaj/github-explorer/files/12566554/github-explorer.postman_collection.zip) \
-🧪 Swagger: 
+📦 Postamn Collection to test API V1: [github-explorer.postman_collection.zip](https://github.com/MarcinMikolaj/github-explorer/files/12566658/github-explorer.postman_collection.zip) \
+🧪 Swagger: http://localhost:7000/swagger-ui/index.html
 
 ## Contact
 
