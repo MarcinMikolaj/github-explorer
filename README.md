@@ -28,6 +28,9 @@ This project provide api to list repositories from github for specific user by h
 
 ![image](https://github.com/MarcinMikolaj/github-explorer/assets/67873349/91a3482b-3d1c-48d9-9cbc-95a201e3494b)
 
+![image](https://github.com/MarcinMikolaj/github-explorer/assets/67873349/7a8a0bac-4b0b-4942-8ee0-29a2bee9b80c)
+
+
 ## Functional and non-functional requirements
 
 The non-functional requirements that have been set for the application include:
