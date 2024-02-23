@@ -1,0 +1,218 @@
+[
+  {
+    "name": "11-initial-adjustments",
+    "commit": {
+      "sha": "64a4e8be4a29e0370183b6a1919200ff67cb4b78",
+      "url": "https://api.github.com/repos/MarcinMikolaj/rtCommunicator/commits/64a4e8be4a29e0370183b6a1919200ff67cb4b78"
+    },
+    "protected": false
+  },
+  {
+    "name": "13-code-refactoring",
+    "commit": {
+      "sha": "05f468303517e7d9b1f9f5d2ce14d31ba566874f",
+      "url": "https://api.github.com/repos/MarcinMikolaj/rtCommunicator/commits/05f468303517e7d9b1f9f5d2ce14d31ba566874f"
+    },
+    "protected": false
+  },
+  {
+    "name": "19-add-exception-handlers-for-rest-controllers",
+    "commit": {
+      "sha": "430c0a1eedfe53111b92c73acdf9c2e8341fb98b",
+      "url": "https://api.github.com/repos/MarcinMikolaj/rtCommunicator/commits/430c0a1eedfe53111b92c73acdf9c2e8341fb98b"
+    },
+    "protected": false
+  },
+  {
+    "name": "20-the-room-entity-should-not-contain-messages-but-indications-to-them",
+    "commit": {
+      "sha": "d76eaf27f0c3589a522eb05b08ed606876836886",
+      "url": "https://api.github.com/repos/MarcinMikolaj/rtCommunicator/commits/d76eaf27f0c3589a522eb05b08ed606876836886"
+    },
+    "protected": false
+  },
+  {
+    "name": "21-optimize-the-method-responsible-for-indicating-that-the-message-has-been-read",
+    "commit": {
+      "sha": "af2b243912434265676e5174bee34dfc4cc28031",
+      "url": "https://api.github.com/repos/MarcinMikolaj/rtCommunicator/commits/af2b243912434265676e5174bee34dfc4cc28031"
+    },
+    "protected": false
+  },
+  {
+    "name": "22-add-pagination-for-messages",
+    "commit": {
+      "sha": "2233a4002fd3a57cf6ec4264849a48c62363640f",
+      "url": "https://api.github.com/repos/MarcinMikolaj/rtCommunicator/commits/2233a4002fd3a57cf6ec4264849a48c62363640f"
+    },
+    "protected": false
+  },
+  {
+    "name": "23-indication-of-read-and-unread-messages-by-users-should-be-based-on-keys-userid-and-not-on-nick",
+    "commit": {
+      "sha": "afc9113c8892fe2dc84228bb5b56a7068686863c",
+      "url": "https://api.github.com/repos/MarcinMikolaj/rtCommunicator/commits/afc9113c8892fe2dc84228bb5b56a7068686863c"
+    },
+    "protected": false
+  },
+  {
+    "name": "24-add-possibility-to-set-path-to-pictures-in-application-properties",
+    "commit": {
+      "sha": "e9b7cc775f47f64eecec451cd41ec4aea09bf654",
+      "url": "https://api.github.com/repos/MarcinMikolaj/rtCommunicator/commits/e9b7cc775f47f64eecec451cd41ec4aea09bf654"
+    },
+    "protected": false
+  },
+  {
+    "name": "25-use-mapstruct-to-mapping-between-java-bean-type-instead-previous-approach",
+    "commit": {
+      "sha": "3b0b784f952f49014c535856dffd6ef5f1bf295c",
+      "url": "https://api.github.com/repos/MarcinMikolaj/rtCommunicator/commits/3b0b784f952f49014c535856dffd6ef5f1bf295c"
+    },
+    "protected": false
+  },
+  {
+    "name": "26-as-a-result-of-adding-pagination-in-the-interface-rooms-do-not-display-the-last-message-and-its-author",
+    "commit": {
+      "sha": "ceeb63d2fa8d769c87540150dcce4aa2351cb828",
+      "url": "https://api.github.com/repos/MarcinMikolaj/rtCommunicator/commits/ceeb63d2fa8d769c87540150dcce4aa2351cb828"
+    },
+    "protected": false
+  },
+  {
+    "name": "28-eureka-service-discovery",
+    "commit": {
+      "sha": "4a5f18b7c1b2903f8fda5f71387dc0ada8b71c5d",
+      "url": "https://api.github.com/repos/MarcinMikolaj/rtCommunicator/commits/4a5f18b7c1b2903f8fda5f71387dc0ada8b71c5d"
+    },
+    "protected": false
+  },
+  {
+    "name": "30-rtc-communicator-microservice-main-should-be-microserve",
+    "commit": {
+      "sha": "31ead608c39d4a50c37b548c504393ca483ab005",
+      "url": "https://api.github.com/repos/MarcinMikolaj/rtCommunicator/commits/31ead608c39d4a50c37b548c504393ca483ab005"
+    },
+    "protected": false
+  },
+  {
+    "name": "33-cloud-api-gateway-architecture",
+    "commit": {
+      "sha": "ff2ded1383f72d0109b5a7c41668bf9da2012b40",
+      "url": "https://api.github.com/repos/MarcinMikolaj/rtCommunicator/commits/ff2ded1383f72d0109b5a7c41668bf9da2012b40"
+    },
+    "protected": false
+  },
+  {
+    "name": "35-prepare-cloud-api-gateway-configuration-as-part-of-application-architecture",
+    "commit": {
+      "sha": "4dccf671de72e35fe9990e89f098c5d7f4e187f0",
+      "url": "https://api.github.com/repos/MarcinMikolaj/rtCommunicator/commits/4dccf671de72e35fe9990e89f098c5d7f4e187f0"
+    },
+    "protected": false
+  },
+  {
+    "name": "37-refactoring",
+    "commit": {
+      "sha": "2e43390597215756ac963d6f35eee87280d33b12",
+      "url": "https://api.github.com/repos/MarcinMikolaj/rtCommunicator/commits/2e43390597215756ac963d6f35eee87280d33b12"
+    },
+    "protected": false
+  },
+  {
+    "name": "39-invitation-service-should-store-data-in-mongodb",
+    "commit": {
+      "sha": "b60687cc8cad5550693b4f402b5551a849e0e186",
+      "url": "https://api.github.com/repos/MarcinMikolaj/rtCommunicator/commits/b60687cc8cad5550693b4f402b5551a849e0e186"
+    },
+    "protected": false
+  },
+  {
+    "name": "41-add-an-option-to-disable-new-account-activation-via-email-in-application-properties",
+    "commit": {
+      "sha": "cb4220fa33016bed944fc5c376159250843f80b0",
+      "url": "https://api.github.com/repos/MarcinMikolaj/rtCommunicator/commits/cb4220fa33016bed944fc5c376159250843f80b0"
+    },
+    "protected": false
+  },
+  {
+    "name": "43-issues-and-problems-that-need-to-be-resolved",
+    "commit": {
+      "sha": "e9e16fc29cb4d7c611d5ac15c12721f646609784",
+      "url": "https://api.github.com/repos/MarcinMikolaj/rtCommunicator/commits/e9e16fc29cb4d7c611d5ac15c12721f646609784"
+    },
+    "protected": false
+  },
+  {
+    "name": "46-add-and-configure-prometheus-to-scrape-metrics",
+    "commit": {
+      "sha": "45c77dbec5ba38c720d098e720e678e620c45afe",
+      "url": "https://api.github.com/repos/MarcinMikolaj/rtCommunicator/commits/45c77dbec5ba38c720d098e720e678e620c45afe"
+    },
+    "protected": false
+  },
+  {
+    "name": "49-prepare-docker-configuration-for-application",
+    "commit": {
+      "sha": "5d5928c56876911702dcfca6e886db18d2f9bba9",
+      "url": "https://api.github.com/repos/MarcinMikolaj/rtCommunicator/commits/5d5928c56876911702dcfca6e886db18d2f9bba9"
+    },
+    "protected": false
+  },
+  {
+    "name": "50-no-file-or-directory-for-docker-configuration",
+    "commit": {
+      "sha": "5e6530f70514f580fa7f9189c11f558aa9f705ac",
+      "url": "https://api.github.com/repos/MarcinMikolaj/rtCommunicator/commits/5e6530f70514f580fa7f9189c11f558aa9f705ac"
+    },
+    "protected": false
+  },
+  {
+    "name": "53-error-messages-are-not-displayed-for-room-manager-after-add-customglobalexceptionhandler",
+    "commit": {
+      "sha": "9f7f69c8213485c081578d708be53bab6833efb3",
+      "url": "https://api.github.com/repos/MarcinMikolaj/rtCommunicator/commits/9f7f69c8213485c081578d708be53bab6833efb3"
+    },
+    "protected": false
+  },
+  {
+    "name": "55-invitation-windows-should-display-room-name",
+    "commit": {
+      "sha": "a4aac34241ca3860da57cf3916bf1bad49721767",
+      "url": "https://api.github.com/repos/MarcinMikolaj/rtCommunicator/commits/a4aac34241ca3860da57cf3916bf1bad49721767"
+    },
+    "protected": false
+  },
+  {
+    "name": "circleci-project-setup",
+    "commit": {
+      "sha": "4575be46f1991c6acd9332769fa8aba7d97c5ba2",
+      "url": "https://api.github.com/repos/MarcinMikolaj/rtCommunicator/commits/4575be46f1991c6acd9332769fa8aba7d97c5ba2"
+    },
+    "protected": false
+  },
+  {
+    "name": "main",
+    "commit": {
+      "sha": "2f1f5831cf5f1718dbe34391f46dfd70b21b18ff",
+      "url": "https://api.github.com/repos/MarcinMikolaj/rtCommunicator/commits/2f1f5831cf5f1718dbe34391f46dfd70b21b18ff"
+    },
+    "protected": false
+  },
+  {
+    "name": "simple_issues_branch",
+    "commit": {
+      "sha": "64a4e8be4a29e0370183b6a1919200ff67cb4b78",
+      "url": "https://api.github.com/repos/MarcinMikolaj/rtCommunicator/commits/64a4e8be4a29e0370183b6a1919200ff67cb4b78"
+    },
+    "protected": false
+  },
+  {
+    "name": "work_branch",
+    "commit": {
+      "sha": "90fec2136caf493231098c6f89eaea21116a9b59",
+      "url": "https://api.github.com/repos/MarcinMikolaj/rtCommunicator/commits/90fec2136caf493231098c6f89eaea21116a9b59"
+    },
+    "protected": false
+  }
+]

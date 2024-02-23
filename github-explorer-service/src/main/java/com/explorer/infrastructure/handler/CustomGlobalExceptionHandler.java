@@ -1,6 +1,6 @@
 package com.explorer.infrastructure.handler;
 
-import com.explorer.infrastructure.exceptions.ResponseException;
+import com.explorer.infrastructure.exceptions.GithubException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.*;
 import org.springframework.web.HttpMediaTypeNotAcceptableException;
@@ -22,8 +22,8 @@ public class CustomGlobalExceptionHandler extends ResponseEntityExceptionHandler
     }
 
     @ResponseStatus(HttpStatus.NOT_FOUND)
-    @ExceptionHandler(ResponseException.class)
-    public ResponseEntity<Object> handleResponseStatusException(ResponseException ex, WebRequest request){
+    @ExceptionHandler(GithubException.class)
+    public ResponseEntity<Object> handleResponseStatusException(GithubException ex, WebRequest request){
         log.error(ex.getMessage());
         return ResponseEntity.status(HttpStatus.NOT_FOUND)
                 .headers(header -> header.add(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE))

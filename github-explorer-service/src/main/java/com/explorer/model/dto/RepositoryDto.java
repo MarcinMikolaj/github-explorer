@@ -1,8 +1,8 @@
-package com.explorer.dto;
+package com.explorer.model.dto;
 
 import com.google.gson.annotations.SerializedName;
 
-public record Repository (
+public record RepositoryDto(
         String id,
         String name,
         boolean fork,

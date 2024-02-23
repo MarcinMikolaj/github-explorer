@@ -1,0 +1,224 @@
+[
+  {
+    "repositoryName": "rtCommunicator",
+    "ownerLogin": "MarcinMikolaj",
+    "branches": [
+      {
+        "name": "11-initial-adjustments",
+        "sha": "64a4e8be4a29e0370183b6a1919200ff67cb4b78"
+      },
+      {
+        "name": "13-code-refactoring",
+        "sha": "05f468303517e7d9b1f9f5d2ce14d31ba566874f"
+      },
+      {
+        "name": "19-add-exception-handlers-for-rest-controllers",
+        "sha": "430c0a1eedfe53111b92c73acdf9c2e8341fb98b"
+      },
+      {
+        "name": "20-the-room-entity-should-not-contain-messages-but-indications-to-them",
+        "sha": "d76eaf27f0c3589a522eb05b08ed606876836886"
+      },
+      {
+        "name": "21-optimize-the-method-responsible-for-indicating-that-the-message-has-been-read",
+        "sha": "af2b243912434265676e5174bee34dfc4cc28031"
+      },
+      {
+        "name": "22-add-pagination-for-messages",
+        "sha": "2233a4002fd3a57cf6ec4264849a48c62363640f"
+      },
+      {
+        "name": "23-indication-of-read-and-unread-messages-by-users-should-be-based-on-keys-userid-and-not-on-nick",
+        "sha": "afc9113c8892fe2dc84228bb5b56a7068686863c"
+      },
+      {
+        "name": "24-add-possibility-to-set-path-to-pictures-in-application-properties",
+        "sha": "e9b7cc775f47f64eecec451cd41ec4aea09bf654"
+      },
+      {
+        "name": "25-use-mapstruct-to-mapping-between-java-bean-type-instead-previous-approach",
+        "sha": "3b0b784f952f49014c535856dffd6ef5f1bf295c"
+      },
+      {
+        "name": "26-as-a-result-of-adding-pagination-in-the-interface-rooms-do-not-display-the-last-message-and-its-author",
+        "sha": "ceeb63d2fa8d769c87540150dcce4aa2351cb828"
+      },
+      {
+        "name": "28-eureka-service-discovery",
+        "sha": "4a5f18b7c1b2903f8fda5f71387dc0ada8b71c5d"
+      },
+      {
+        "name": "30-rtc-communicator-microservice-main-should-be-microserve",
+        "sha": "31ead608c39d4a50c37b548c504393ca483ab005"
+      },
+      {
+        "name": "33-cloud-api-gateway-architecture",
+        "sha": "ff2ded1383f72d0109b5a7c41668bf9da2012b40"
+      },
+      {
+        "name": "35-prepare-cloud-api-gateway-configuration-as-part-of-application-architecture",
+        "sha": "4dccf671de72e35fe9990e89f098c5d7f4e187f0"
+      },
+      {
+        "name": "37-refactoring",
+        "sha": "2e43390597215756ac963d6f35eee87280d33b12"
+      },
+      {
+        "name": "39-invitation-service-should-store-data-in-mongodb",
+        "sha": "b60687cc8cad5550693b4f402b5551a849e0e186"
+      },
+      {
+        "name": "41-add-an-option-to-disable-new-account-activation-via-email-in-application-properties",
+        "sha": "cb4220fa33016bed944fc5c376159250843f80b0"
+      },
+      {
+        "name": "43-issues-and-problems-that-need-to-be-resolved",
+        "sha": "e9e16fc29cb4d7c611d5ac15c12721f646609784"
+      },
+      {
+        "name": "46-add-and-configure-prometheus-to-scrape-metrics",
+        "sha": "45c77dbec5ba38c720d098e720e678e620c45afe"
+      },
+      {
+        "name": "49-prepare-docker-configuration-for-application",
+        "sha": "5d5928c56876911702dcfca6e886db18d2f9bba9"
+      },
+      {
+        "name": "50-no-file-or-directory-for-docker-configuration",
+        "sha": "5e6530f70514f580fa7f9189c11f558aa9f705ac"
+      },
+      {
+        "name": "53-error-messages-are-not-displayed-for-room-manager-after-add-customglobalexceptionhandler",
+        "sha": "9f7f69c8213485c081578d708be53bab6833efb3"
+      },
+      {
+        "name": "55-invitation-windows-should-display-room-name",
+        "sha": "a4aac34241ca3860da57cf3916bf1bad49721767"
+      },
+      {
+        "name": "circleci-project-setup",
+        "sha": "4575be46f1991c6acd9332769fa8aba7d97c5ba2"
+      },
+      {
+        "name": "main",
+        "sha": "2f1f5831cf5f1718dbe34391f46dfd70b21b18ff"
+      },
+      {
+        "name": "simple_issues_branch",
+        "sha": "64a4e8be4a29e0370183b6a1919200ff67cb4b78"
+      },
+      {
+        "name": "work_branch",
+        "sha": "90fec2136caf493231098c6f89eaea21116a9b59"
+      }
+    ]
+  },
+  {
+    "repositoryName": "file-sorting",
+    "ownerLogin": "MarcinMikolaj",
+    "branches": [
+      {
+        "name": "main",
+        "sha": "9e10a572743fd7d623a7650c274f4b3f98b2a80b"
+      }
+    ]
+  },
+  {
+    "repositoryName": "request-burst",
+    "ownerLogin": "MarcinMikolaj",
+    "branches": [
+      {
+        "name": "1-project-initialize",
+        "sha": "145cce5556821dfb67ad65d32992e2c6eb244865"
+      },
+      {
+        "name": "3-health-endpoint",
+        "sha": "4e9316dd2ddbe60e91e9d73a5a9a1e49c3a162df"
+      },
+      {
+        "name": "6-preparing-syncasync-calls",
+        "sha": "64c84ed4e1d70974852a9e9c8b6c748f4c5d2cdc"
+      },
+      {
+        "name": "9-validation",
+        "sha": "5d31e294c9aa2cdabbc0484881da453eb79b9112"
+      },
+      {
+        "name": "10-exception-handler",
+        "sha": "494287d9b325cc634d7edda35903945e86b7b471"
+      },
+      {
+        "name": "14-http-method-should-be-process-in-a-lowercase-form",
+        "sha": "40674f41b5719079b6af2a5c9904895226099e7a"
+      },
+      {
+        "name": "16-data-storage-strategy",
+        "sha": "3cf9efbc11fb82b194d144f1c04d455a2ddbebfe"
+      },
+      {
+        "name": "21-reactive-approach",
+        "sha": "6a3b7be2b4ee19452d578495fcf504667c600bbb"
+      },
+      {
+        "name": "main",
+        "sha": "6dd1a4b0b0cbc8df2dd78d848f2321a2707d5e84"
+      }
+    ]
+  },
+  {
+    "repositoryName": "github-explorer",
+    "ownerLogin": "MarcinMikolaj",
+    "branches": [
+      {
+        "name": "1-project-initialization",
+        "sha": "53ecc68db800a35540de780fbe0e366523667f36"
+      },
+      {
+        "name": "3-skeleton",
+        "sha": "730a3e6176507443debb2e619f82b9a382b7a512"
+      },
+      {
+        "name": "5-exception-handler",
+        "sha": "da76e5ecb3174d184fb2480104fbf48dabf2bf5e"
+      },
+      {
+        "name": "7-add-swagger",
+        "sha": "fa774a5c08a31fbd1e4c35dd05bd207b09eae3e6"
+      },
+      {
+        "name": "9-adjustments",
+        "sha": "c6d6297c9ab004b95641f6e7dd2558e7693a26ee"
+      },
+      {
+        "name": "main",
+        "sha": "c6d6297c9ab004b95641f6e7dd2558e7693a26ee"
+      }
+    ]
+  },
+  {
+    "repositoryName": "note-box",
+    "ownerLogin": "MarcinMikolaj",
+    "branches": [
+      {
+        "name": "1-note-box-service-initialization",
+        "sha": "f13b6710da974b1c89ae86deb79444303d312535"
+      },
+      {
+        "name": "4-skeleton",
+        "sha": "d072d583db370d7b7af5200645663bed13384ae9"
+      },
+      {
+        "name": "6-storage-strategy",
+        "sha": "dffc64310a1f6ca50658ed00fd22dd496c32dc0b"
+      },
+      {
+        "name": "9-add-unit-tests",
+        "sha": "58caacd61060f70c31a9b4e5581d17a1c2905caf"
+      },
+      {
+        "name": "main",
+        "sha": "b2cf81bda919c254299c0cb6ec3ff5ca4533ed72"
+      }
+    ]
+  }
+]
