@@ -70,7 +70,7 @@ example ,
 }
 ```
 - if request contain header “Accept: application/xml”, return 406 response in such a format:{ “status”: ${responseCode} “Message”: ${whyHasItHappened} }
-example ,
+example,
 ```
 {
     "statusCode": 406,
